@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:#FCF0DD;
+}
+
+body{
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%238c9caa' fill-opacity='1'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;   /* Height of the footer */
+  background: white;
+  border: 1px solid black;
+}
+
+#g1{
+  padding-top: 9px;
+  text-align: center;
+  background-color: white;
+
+}
+
+#header h1{
+  margin:0;
+  padding-left: 16px;
+  display:inline;
+  background-color: white;
+}
+
+.header{
+  background-color: white;
+  padding: 15px;
+}
+
+ul#pagetabs{
+  list-style-type: none;
+  width: 75%;
+  float: right;
+  display:inline;
+  padding: 15px;
+  margin: 0 0 10;
+  display: inline;
+  background-color: white;
+}
+
+#titlecontent{
+  text-align: center;
+  padding-top: 3%;
+}
+
+li#tabs1{
+  display: inline;
+  padding-left: 60px; 
+  background-color: white;
+}
+
+/* beginning of faq style */
+div.container{
+  text-align: center;
+  width: 67%;
+  justify-content: center;
+  padding-left: 260px;
+  padding-top: 55px;
+  padding-bottom: 400px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%238c9caa' fill-opacity='1'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+
+}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background-color: white;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  background-color: white;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #424f5c;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the "prev button" to the left */
+.prev{
+  position: absolute;
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #424f5c;
+  color: #FCF0DD;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: white;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #424f5c;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #8c9caa;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: bold; background-color: white;}
+
+p{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; background-color: white; color: black;}
+
+/* Add a blue color to the author */
+.answer {padding-top: 20px; color: cornflowerblue;  background-color: white;}
+
+/* end of faq style */
+
+li#k1{
+  background-color: orange;
+  list-style-type: none;
+  
+}
+
+li{
+  background-color: white;
+  padding-bottom: 6px;
+}
+a {
+  padding: 15px;
+  background-color: white;
+}
+
+/* Grid for Gallery  */
+
+html, body { padding: 0; margin: 0; }
+.image-grid div {
+  width: 25%;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.image01 { background-image: url(./wwwroot/src/0G0A9652.jpg); transition:transform 0.25s ease;}
+.image01:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image02 { background-image: url(./wwwroot/src/IMG_0718.jpg); transition:transform 0.25s ease;}
+.image02:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image03 { background-image: url(./wwwroot/src/IMG_0733.jpg); transition:transform 0.25s ease;}
+.image03:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image04 { background-image: url(./wwwroot/src/IMG_0741.jpg); transition:transform 0.25s ease;}
+.image04:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image05 { background-image: url(./wwwroot/src/IMG_0748.jpg); transition:transform 0.25s ease;}
+.image05:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image06 { background-image: url(./wwwroot/src/IMG_0753.jpg); transition:transform 0.25s ease;}
+.image06:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image07 { background-image: url(./wwwroot/src/IMG_0764.jpg); transition:transform 0.25s ease;}
+.image07:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image08 { background-image: url(./wwwroot/src/IMG_0792.jpg); transition:transform 0.25s ease;}
+.image08:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image09 { background-image: url(./wwwroot/src/IMG_0796.jpg); transition:transform 0.25s ease;}
+.image09:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image10 { background-image: url(./wwwroot/src/IMG_0815.jpg); transition:transform 0.25s ease;}
+.image10:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image11 { background-image: url(./wwwroot/src/IMG_0822-2.jpg); transition:transform 0.25s ease;}
+.image11:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image12 { background-image: url(./wwwroot/src/IMG_0826-2.jpg); transition:transform 0.25s ease;}
+.image12:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+/*  */
+.image13 { background-image: url(./wwwroot/src/IMG_0826.jpg); transition:transform 0.25s ease;}
+.image13:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image14 { background-image: url(./wwwroot/src/IMG_0832.jpg); transition:transform 0.25s ease;}
+.image14:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image15 { background-image: url(./wwwroot/src/IMG_0834.jpg); transition:transform 0.25s ease;}
+.image15:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image16 { background-image: url(./wwwroot/src/IMG_0846.jpg); transition:transform 0.25s ease;}
+.image16:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image17 { background-image: url(./wwwroot/src/IMG_0859.jpg); transition:transform 0.25s ease;}
+.image17:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image18 { background-image: url(./wwwroot/src/IMG_0869.jpg); transition:transform 0.25s ease;}
+.image18:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image19 { background-image: url(./wwwroot/src/IMG_0875.jpg); transition:transform 0.25s ease;}
+.image19:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image20 { background-image: url(./wwwroot/src/IMG_0896-2.jpg); transition:transform 0.25s ease;}
+.image20:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image21 { background-image: url(./wwwroot/src/IMG_0897-2.jpg); transition:transform 0.25s ease;}
+.image21:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image22 { background-image: url(./wwwroot/src/IMG_0900.jpg); transition:transform 0.25s ease;}
+.image22:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image23 { background-image: url(./wwwroot/src/IMG_0904.jpg); transition:transform 0.25s ease;}
+.image23:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image24 { background-image: url(./wwwroot/src/IMG_0956.jpg); transition:transform 0.25s ease;}
+.image24:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+/*  */
+.image25 { background-image: url(./wwwroot/src/IMG_0968-2.jpg); transition:transform 0.25s ease;}
+.image25:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image26 { background-image: url(./wwwroot/src/IMG_0980-2.jpg); transition:transform 0.25s ease;}
+.image26:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image27 { background-image: url(./wwwroot/src/IMG_0992-2-2.jpg); transition:transform 0.25s ease;}
+.image27:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image28 { background-image: url(./wwwroot/src/IMG_0992-2.jpg); transition:transform 0.25s ease;}
+.image28:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image29 { background-image: url(./wwwroot/src/IMG_0997-2.jpg); transition:transform 0.25s ease;}
+.image29:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image30 { background-image: url(./wwwroot/src/IMG_0997-3.jpg); transition:transform 0.25s ease;}
+.image30:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image31 { background-image: url(./wwwroot/src/IMG_1005-2.jpg); transition:transform 0.25s ease;}
+.image31:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image32 { background-image: url(./wwwroot/src/IMG_1014.jpg); transition:transform 0.25s ease;}
+.image32:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image33 { background-image: url(./wwwroot/src/IMG_1017.jpg); transition:transform 0.25s ease;}
+.image33:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image34 { background-image: url(./wwwroot/src/IMG_1040.jpg); transition:transform 0.25s ease;}
+.image34:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image35 { background-image: url(./wwwroot/src/IMG_1042-2.jpg); transition:transform 0.25s ease;}
+.image35:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image36 { background-image: url(./wwwroot/src/IMG_1042-3.jpg); transition:transform 0.25s ease;}
+.image36:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+
+
+@media screen and (max-width: 400px) {
+  .image-grid {
+    flex-direction: column;
+    flex-wrap: no-wrap;
+  }
+  .image-grid div { width: 100%; }
+}

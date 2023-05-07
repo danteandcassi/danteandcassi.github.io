@@ -1,3 +1,2 @@
-# danteandcassi.github.io
-
-This is a test to see if i can commit 
+# Cassi_Wedding_v1
+This is a website for Cassi's wedding &lt;3
