@@ -177,13 +177,26 @@ html, body { padding: 0; margin: 0; }
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  
 }
 
 .image-grid {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 144px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%238c9caa' fill-opacity='1'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
 }
 
+#gallery1{
+  padding-bottom: 30px;
+  padding-top: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%238c9caa' fill-opacity='1'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");  
+  text-align-last: center;
+}
+
+#gy1{
+  background-color: white;
+}
 
 .image01 { background-image: url(./wwwroot/src/0G0A9652.jpg); transition:transform 0.25s ease;}
 .image01:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
