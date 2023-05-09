@@ -198,79 +198,79 @@ html, body { padding: 0; margin: 0; }
   background-color: white;
 }
 
-.image01 { background-image: url(./wwwroot/src/0G0A9652.jpg); transition:transform 0.25s ease;}
+.image01 { background-image: url(../src/0G0A9652.jpg); transition:transform 0.25s ease;}
 .image01:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image02 { background-image: url(./wwwroot/src/IMG_0718.jpg); transition:transform 0.25s ease;}
+.image02 { background-image: url(../src/IMG_0718.jpg); transition:transform 0.25s ease;}
 .image02:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image03 { background-image: url(./wwwroot/src/IMG_0733.jpg); transition:transform 0.25s ease;}
+.image03 { background-image: url(../src/IMG_0733.jpg); transition:transform 0.25s ease;}
 .image03:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image04 { background-image: url(./wwwroot/src/IMG_0741.jpg); transition:transform 0.25s ease;}
+.image04 { background-image: url(../src/IMG_0741.jpg); transition:transform 0.25s ease;}
 .image04:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image05 { background-image: url(./wwwroot/src/IMG_0748.jpg); transition:transform 0.25s ease;}
+.image05 { background-image: url(../src/IMG_0748.jpg); transition:transform 0.25s ease;}
 .image05:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image06 { background-image: url(./wwwroot/src/IMG_0753.jpg); transition:transform 0.25s ease;}
+.image06 { background-image: url(../src/IMG_0753.jpg); transition:transform 0.25s ease;}
 .image06:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image07 { background-image: url(./wwwroot/src/IMG_0764.jpg); transition:transform 0.25s ease;}
+.image07 { background-image: url(../src/IMG_0764.jpg); transition:transform 0.25s ease;}
 .image07:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image08 { background-image: url(./wwwroot/src/IMG_0792.jpg); transition:transform 0.25s ease;}
+.image08 { background-image: url(../src/IMG_0792.jpg); transition:transform 0.25s ease;}
 .image08:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image09 { background-image: url(./wwwroot/src/IMG_0796.jpg); transition:transform 0.25s ease;}
+.image09 { background-image: url(../src/IMG_0796.jpg); transition:transform 0.25s ease;}
 .image09:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image10 { background-image: url(./wwwroot/src/IMG_0815.jpg); transition:transform 0.25s ease;}
+.image10 { background-image: url(../src/IMG_0815.jpg); transition:transform 0.25s ease;}
 .image10:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image11 { background-image: url(./wwwroot/src/IMG_0822-2.jpg); transition:transform 0.25s ease;}
+.image11 { background-image: url(../src/IMG_0822-2.jpg); transition:transform 0.25s ease;}
 .image11:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image12 { background-image: url(./wwwroot/src/IMG_0826-2.jpg); transition:transform 0.25s ease;}
+.image12 { background-image: url(../src/IMG_0826-2.jpg); transition:transform 0.25s ease;}
 .image12:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
 /*  */
-.image13 { background-image: url(./wwwroot/src/IMG_0826.jpg); transition:transform 0.25s ease;}
+.image13 { background-image: url(../src/IMG_0826.jpg); transition:transform 0.25s ease;}
 .image13:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image14 { background-image: url(./wwwroot/src/IMG_0832.jpg); transition:transform 0.25s ease;}
+.image14 { background-image: url(../src/IMG_0832.jpg); transition:transform 0.25s ease;}
 .image14:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image15 { background-image: url(./wwwroot/src/IMG_0834.jpg); transition:transform 0.25s ease;}
+.image15 { background-image: url(../src/IMG_0834.jpg); transition:transform 0.25s ease;}
 .image15:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image16 { background-image: url(./wwwroot/src/IMG_0846.jpg); transition:transform 0.25s ease;}
+.image16 { background-image: url(../src/IMG_0846.jpg); transition:transform 0.25s ease;}
 .image16:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image17 { background-image: url(./wwwroot/src/IMG_0859.jpg); transition:transform 0.25s ease;}
+.image17 { background-image: url(../src/IMG_0859.jpg); transition:transform 0.25s ease;}
 .image17:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image18 { background-image: url(./wwwroot/src/IMG_0869.jpg); transition:transform 0.25s ease;}
+.image18 { background-image: url(../src/IMG_0869.jpg); transition:transform 0.25s ease;}
 .image18:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image19 { background-image: url(./wwwroot/src/IMG_0875.jpg); transition:transform 0.25s ease;}
+.image19 { background-image: url(../src/IMG_0875.jpg); transition:transform 0.25s ease;}
 .image19:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image20 { background-image: url(./wwwroot/src/IMG_0896-2.jpg); transition:transform 0.25s ease;}
+.image20 { background-image: url(../src/IMG_0896-2.jpg); transition:transform 0.25s ease;}
 .image20:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image21 { background-image: url(./wwwroot/src/IMG_0897-2.jpg); transition:transform 0.25s ease;}
+.image21 { background-image: url(../src/IMG_0897-2.jpg); transition:transform 0.25s ease;}
 .image21:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image22 { background-image: url(./wwwroot/src/IMG_0900.jpg); transition:transform 0.25s ease;}
+.image22 { background-image: url(../src/IMG_0900.jpg); transition:transform 0.25s ease;}
 .image22:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image23 { background-image: url(./wwwroot/src/IMG_0904.jpg); transition:transform 0.25s ease;}
+.image23 { background-image: url(../src/IMG_0904.jpg); transition:transform 0.25s ease;}
 .image23:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image24 { background-image: url(./wwwroot/src/IMG_0956.jpg); transition:transform 0.25s ease;}
+.image24 { background-image: url(../src/IMG_0956.jpg); transition:transform 0.25s ease;}
 .image24:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
 /*  */
-.image25 { background-image: url(./wwwroot/src/IMG_0968-2.jpg); transition:transform 0.25s ease;}
+.image25 { background-image: url(../src/IMG_0968-2.jpg); transition:transform 0.25s ease;}
 .image25:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image26 { background-image: url(./wwwroot/src/IMG_0980-2.jpg); transition:transform 0.25s ease;}
+.image26 { background-image: url(../src/IMG_0980-2.jpg); transition:transform 0.25s ease;}
 .image26:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image27 { background-image: url(./wwwroot/src/IMG_0992-2-2.jpg); transition:transform 0.25s ease;}
+.image27 { background-image: url(../src/IMG_0992-2-2.jpg); transition:transform 0.25s ease;}
 .image27:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image28 { background-image: url(./wwwroot/src/IMG_0992-2.jpg); transition:transform 0.25s ease;}
+.image28 { background-image: url(../src/IMG_0992-2.jpg); transition:transform 0.25s ease;}
 .image28:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image29 { background-image: url(./wwwroot/src/IMG_0997-2.jpg); transition:transform 0.25s ease;}
+.image29 { background-image: url(../src/IMG_0997-2.jpg); transition:transform 0.25s ease;}
 .image29:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image30 { background-image: url(./wwwroot/src/IMG_0997-3.jpg); transition:transform 0.25s ease;}
+.image30 { background-image: url(../src/IMG_0997-3.jpg); transition:transform 0.25s ease;}
 .image30:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image31 { background-image: url(./wwwroot/src/IMG_1005-2.jpg); transition:transform 0.25s ease;}
+.image31 { background-image: url(../src/IMG_1005-2.jpg); transition:transform 0.25s ease;}
 .image31:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image32 { background-image: url(./wwwroot/src/IMG_1014.jpg); transition:transform 0.25s ease;}
+.image32 { background-image: url(../src/IMG_1014.jpg); transition:transform 0.25s ease;}
 .image32:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image33 { background-image: url(./wwwroot/src/IMG_1017.jpg); transition:transform 0.25s ease;}
+.image33 { background-image: url(../src/IMG_1017.jpg); transition:transform 0.25s ease;}
 .image33:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image34 { background-image: url(./wwwroot/src/IMG_1040.jpg); transition:transform 0.25s ease;}
+.image34 { background-image: url(../src/IMG_1040.jpg); transition:transform 0.25s ease;}
 .image34:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image35 { background-image: url(./wwwroot/src/IMG_1042-2.jpg); transition:transform 0.25s ease;}
+.image35 { background-image: url(../src/IMG_1042-2.jpg); transition:transform 0.25s ease;}
 .image35:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
-.image36 { background-image: url(./wwwroot/src/IMG_1042-3.jpg); transition:transform 0.25s ease;}
+.image36 { background-image: url(../src/IMG_1042-3.jpg); transition:transform 0.25s ease;}
 .image36:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
 
 
