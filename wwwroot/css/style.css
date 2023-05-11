@@ -9,13 +9,15 @@ html, body{
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%238c9caa' fill-opacity='1'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
 }
 
+footer, form, table, .slideshow-container, li#tabs1, ul#pagetabs, .header, #g1, #info1, #content1, th, tr, td, div#intro, div#Story, h1#subtitle, div#Schedule{
+  background-color: white;
+}
 
 footer{
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 60px;   /* Height of the footer */
-  background: white;
   border: 1px solid black;
 }
 
@@ -23,8 +25,6 @@ footer{
 #g1{
   padding-top: 9px;
   text-align: center;
-  background-color: white;
-
 }
 
 #header h1{
@@ -35,7 +35,6 @@ footer{
 }
 
 .header{
-  background-color: white;
   padding: 15px;
 }
 
@@ -47,7 +46,6 @@ ul#pagetabs{
   padding: 15px;
   margin: 0 0 10;
   display: inline;
-  background-color: white;
 }
 
 #titlecontent{
@@ -57,8 +55,7 @@ ul#pagetabs{
 
 li#tabs1{
   display: inline;
-  padding-left: 60px; 
-  background-color: white;
+  padding-left: 100px; 
 }
 
 /* beginning of faq style */
@@ -73,9 +70,7 @@ div.container{
 }
 /* Slideshow container */
 .slideshow-container {
-  position: relative;
-  background-color: white;
-  
+  position: relative; 
 }
 
 /* Slides */
@@ -287,8 +282,7 @@ html, body { padding: 0; margin: 0; }
 /* beginning of homepage */
 
 div#intro{
-  background-color: white;
-  width: 497px;
+  width: 651px;
   height: 279px;
   border: 3px solid black;
   border-radius: 2%;
@@ -296,14 +290,13 @@ div#intro{
   margin-top: 30px;
 }
 
-#info1{
-  background-color: white;
+form{
+  padding-top: 20px;
 }
 
 div#Story{
-  background-color: white;
-  width: 751px;
-  height: 279px;
+  width: 912px;
+  height: auto;
   border: 3px solid black;
   border-radius: 3%;
   padding-top: 50px;
@@ -318,9 +311,8 @@ h1#subtitle{
 }
 
 div#Schedule{
-  background-color: white;
-  width: 751px;
-  height: 279px;
+  width: 912px;
+  height: auto;
   border: 3px solid black;
   border-radius: 3%;
   padding-top: 50px;
@@ -328,4 +320,18 @@ div#Schedule{
   padding-bottom: 40px;
   margin-top: 92px;
   margin-bottom: 136px;
+}
+
+/* schedule table */
+table{
+  padding-top: 75px;
+  justify-content: center;
+}
+
+th, td{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  border-bottom: 3px solid black;
 }
