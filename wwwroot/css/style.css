@@ -283,7 +283,7 @@ html, body { padding: 0; margin: 0; }
 
 div#intro{
   width: 651px;
-  height: 279px;
+  height: auto;
   border: 3px solid black;
   border-radius: 2%;
   background-image: none;
@@ -306,7 +306,7 @@ div#Story{
 }
 
 h1#subtitle{
-  padding-left: 40px;
+  padding-left: 60px;
   float: left;
 }
 
@@ -335,3 +335,7 @@ th, td{
   padding-right: 40px;
   border-bottom: 3px solid black;
 }
+
+/* #intro, #slideshow2{
+  display: inline-block;
+} */
