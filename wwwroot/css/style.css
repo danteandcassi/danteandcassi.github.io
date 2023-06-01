@@ -1,13 +1,57 @@
 * {
   margin: 0;
   text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Courier New', Courier, monospace;
   background-color:#FCF0DD;
+  color: black;
+  font-size: large;
 }
 
-html, body{
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%238c9caa' fill-opacity='1'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../src/0G0A9652.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1; /* Ensure the background is behind the content */
 }
+
+.content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../src/0G0A9652.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.transparent-background {
+  padding:120px;
+  text-align: center;
+  font-size: 30px;
+  color:white;
+  background-color: transparent;
+  font-family: "Lucida Handwriting", cursive;
+}
+
+.transparent-background2 {
+  padding:120px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  color:white;
+  background-color: transparent;
+  font-family: "Lucida Handwriting", cursive;
+}
+
 
 footer, form, table, .slideshow-container, li#tabs1, ul#pagetabs, .header, #g1, #info1, #content1, th, tr, td, div#intro, div#Story, h1#subtitle, div#Schedule{
   background-color: white;
@@ -23,19 +67,30 @@ footer{
 
 
 #g1{
+
   padding-top: 9px;
+  text-align: center;
+}
+
+
+#g2{
+  position: relative;
+  z-index: 1;
+  padding-top: 144px;
   text-align: center;
 }
 
 #header h1{
   margin:0;
-  padding-left: 16px;
+  padding-left: 20px;
   display:inline;
   background-color: white;
+  font-size: xx-large;
 }
 
 .header{
-  padding: 15px;
+  font-size: x-large;
+  padding: 25px;
 }
 
 ul#pagetabs{
@@ -46,6 +101,7 @@ ul#pagetabs{
   padding: 15px;
   margin: 0 0 10;
   display: inline;
+  text-align: right;
 }
 
 #titlecontent{
@@ -56,6 +112,8 @@ ul#pagetabs{
 li#tabs1{
   display: inline;
   padding-left: 100px; 
+  color:black;
+  font-weight: bold;
 }
 
 /* beginning of faq style */
@@ -183,6 +241,13 @@ html, body { padding: 0; margin: 0; }
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%238c9caa' fill-opacity='1'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
 }
 
+.image-index {
+  background-image: url(../src/0G0A9652.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+
 #gallery1{
   padding-bottom: 30px;
   padding-top: 20px;
@@ -194,8 +259,8 @@ html, body { padding: 0; margin: 0; }
   background-color: white;
 }
 
-.image01 { background-image: url(../src/0G0A9652.jpg); transition:transform 0.25s ease;}
-.image01:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
+.image01 { background-image: url(../src/0G0A9652.jpg); transition:transform 1.0s ease;}
+.image01:hover{-webkit-transform:scale(10); transform:scale(10);}
 .image02 { background-image: url(../src/IMG_0718.jpg); transition:transform 0.25s ease;}
 .image02:hover{-webkit-transform:scale(1.5); transform:scale(1.5);}
 .image03 { background-image: url(../src/IMG_0733.jpg); transition:transform 0.25s ease;}
