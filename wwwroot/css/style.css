@@ -41,6 +41,8 @@
 }
 
 .content {
+  flex: 1;
+  min-width: 300px;
   position: fixed;
   top: 0;
   left: 0;
@@ -50,7 +52,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
-  flex:auto;
 }
 
 
@@ -62,6 +63,7 @@
   color:white;
   background-color: transparent;
   font-family: "Lucida Handwriting", cursive;
+  flex-grow: 1;
 }
 
 .transparent-background2 {
@@ -72,6 +74,7 @@
   color:white;
   background-color: transparent;
   font-family: "Lucida Handwriting", cursive;
+  flex-grow:1;
 }
 
 .transparent-background3 {
@@ -87,6 +90,12 @@
 
 footer, form, table, .slideshow-container, li#tabs1, ul#pagetabs, .header, #g1, #info1, #content1, th, tr, td, div#intro, div#Story, div#Schedule{
   background-color: white;
+  text-align: center;
+}
+
+info1{
+  text-align: center;
+  padding-left: 0px;
 }
 
 h1#subtitle{
@@ -118,7 +127,6 @@ footer{
 
 #header h1{
   margin:0;
-  padding-left: 20px;
   display:inline;
   background-color: white;
   font-size: x-large;
@@ -141,7 +149,6 @@ ul#pagetabs{
 
 #titlecontent{
   text-align: center;
-  padding-top: 3%;
 }
 
 li#tabs1{
@@ -154,6 +161,7 @@ li#tabs1{
 /* beginning of faq style */
 div.container{
   display:flex;
+  flex-wrap: wrap;
   text-align: center;
   width: 67%;
   justify-content: center;
