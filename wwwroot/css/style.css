@@ -7,7 +7,24 @@
   font-size: large;
 }
 
+/* Default styles for the element */
+.element {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
 
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  .element {
+    /* Adjust the position or size of the element for smaller screens */
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+  }
+}
 
 .background {
   position: fixed;
