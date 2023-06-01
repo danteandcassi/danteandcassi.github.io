@@ -50,7 +50,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
+  flex:auto;
 }
+
+
 
 .transparent-background {
   padding:120px;
@@ -82,8 +85,12 @@
 }
 
 
-footer, form, table, .slideshow-container, li#tabs1, ul#pagetabs, .header, #g1, #info1, #content1, th, tr, td, div#intro, div#Story, h1#subtitle, div#Schedule{
+footer, form, table, .slideshow-container, li#tabs1, ul#pagetabs, .header, #g1, #info1, #content1, th, tr, td, div#intro, div#Story, div#Schedule{
   background-color: white;
+}
+
+h1#subtitle{
+  background-color: transparent;
 }
 
 footer{
@@ -146,12 +153,13 @@ li#tabs1{
 
 /* beginning of faq style */
 div.container{
+  display:flex;
   text-align: center;
   width: 67%;
   justify-content: center;
   padding-left: 260px;
   padding-top: 55px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%238c9caa' fill-opacity='1'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+  background-image: white;
 
 }
 /* Slideshow container */
@@ -410,17 +418,33 @@ input[type="submit"] {
 div#Story{
   width: 912px;
   height: auto;
-  border: 3px solid black;
-  border-radius: 3%;
   padding-top: 50px;
-  background-image: none;
   padding-bottom: 40px;
   margin-top: 92px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../src/IMG_0832.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  white-space: normal;
+  overflow-wrap: break-word;
+  text-align: left;
+
 }
 
 h1#subtitle{
   padding-left: 60px;
   float: left;
+  color: white;
+  padding:left; 
+  position: left;
+  white-space: normal;
+  overflow-wrap: break-word;
+  text-align: left;
 }
 
 div#Schedule{
