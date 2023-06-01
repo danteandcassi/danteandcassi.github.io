@@ -387,6 +387,66 @@ html, body { padding: 0; margin: 0; }
   .image-grid div { width: 100%; }
 }
 
+.hero{
+  width:100%;
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-icon{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.message-icon i{
+  font-size: 40px;
+}
+
+.message-icon span{
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+form input, textarea{
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+#input-field{
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#input-field i{
+  font-size: 22px;
+  margin-right: 15px;
+
+}
+
+#input-field span{
+  font-size: 22px;
+  margin-right: 15px;
+
+}
+
+.send-btn{
+  width: 100px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 6px 0;
+  border-radius: 50px;
+}
 
 /* beginning of homepage */
 
@@ -400,27 +460,7 @@ div#intro{
   margin-top: 30px;
 }
 
-form{
-  width: 400px;
-  margin: 0 auto;
-}
 
-input[type="text"],
-input[type="email"] {
-  /* Add styles to the text and email input fields */
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-input[type="submit"] {
-  /* Add styles to the submit button */
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
 
 
 div#Story{

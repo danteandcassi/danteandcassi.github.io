@@ -2,7 +2,6 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="./wwwroot/css/style.css" />
-
     <title>Dante & Cassandra's Wedding</title>
   </head>
   <body>
@@ -19,14 +18,38 @@
         <li id="tabs1"><a href="FAQ.html">FAQ</a></li>
       </ul>
     </div>
-    <h2>Text input fields</h2>
 
-    <form>
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" value="John"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" value="Doe">
-    </form>
+ 
+    <div class="hero">
+      <form action="https://formspree.io/f/xzbqlbaa" method="POST">
+        <div class="message-icon">
+          <i class="bi bi-telogram" ></i>
+          <span>RSVP</span>
+        </div>
+
+        <div id="input-field">
+          <i class="bi bi-person"></i>
+          <input type="text" placeholder="Name" name="Name">
+        </div>
+
+        <div id="input-field">
+          <i class="bi bi-telephone"></i>
+          <input type="text" placeholder="Phone No." name="Phone">
+        </div>
+
+        <div id="input-field">
+          <i class="bi bi-envolope"></i>
+          <input type="text" placeholder="Email Address" name="Email">
+        </div>
+
+        <div id="input-field">
+          <i class="bi bi-chat-right-dots"></i>
+          <textarea name="Message" placeholder="Message" rows="10"></textarea>
+        </div>
+
+        <input type="submit" value="Submit" class="send-btn">
+      </form>
+    </div>    
 
     
     
