@@ -125,6 +125,13 @@ footer{
   text-align: center;
 }
 
+#g3{
+  background-color: transparent;
+  color:white;
+  padding-top: 9px;
+  text-align: center;
+}
+
 #header h1{
   margin:0;
   display:inline;
@@ -245,6 +252,8 @@ div.container{
 q {font-style: bold; background-color: white;}
 
 p{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; background-color: white; color: black;}
+
+p1{background-color: transparent;}
 
 /* Add a blue color to the author */
 .answer {padding-top: 20px; color: cornflowerblue;  background-color: white;}
