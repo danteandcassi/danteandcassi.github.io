@@ -96,6 +96,7 @@ footer, form, table, .slideshow-container, li#tabs1, ul#pagetabs, .header, #g1, 
 info1{
   text-align: center;
   padding-left: 0px;
+  padding-bottom: 0%;
 }
 
 h1#subtitle{
@@ -154,8 +155,20 @@ ul#pagetabs{
   display: inline;
 }
 
+.whitebox{
+  width: 500px; 
+  height: 100px; 
+  margin-top: 25px; 
+  margin-left: auto; 
+  margin-right: auto;
+  background-color: rgba(0,0,0,.5);
+  
+}
 #titlecontent{
   text-align: center;
+  background-color: transparent;
+  color:white;
+  padding-top: 30px;
 }
 
 li#tabs1{
@@ -167,8 +180,6 @@ li#tabs1{
 
 /* beginning of faq style */
 div.container{
-  display:flex;
-  flex-wrap: wrap;
   text-align: center;
   width: 67%;
   justify-content: center;
@@ -475,9 +486,9 @@ div#intro{
 div#Story{
   width: 912px;
   height: auto;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 40px;
-  margin-top: 92px;
+  margin-top: 30px;
   position: fixed;
   top: 0;
   left: 0;
@@ -490,21 +501,30 @@ div#Story{
   white-space: normal;
   overflow-wrap: break-word;
   text-align: left;
-
 }
 
 h1#subtitle{
-  padding-left: 60px;
-  float: left;
   color: white;
-  padding:left; 
-  position: left;
+  position: center;
   white-space: normal;
   overflow-wrap: break-word;
-  text-align: left;
+  text-align: center;
+  font-size: x-large;
 }
 
 div#Schedule{
+  width: 912px;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 3%;
+  padding-top: 50px;
+  background-image: none;
+  padding-bottom: 40px;
+  margin-top: 92px;
+  margin-bottom: 136px;
+}
+
+.Schedule{
   width: 912px;
   height: auto;
   border: 3px solid black;
