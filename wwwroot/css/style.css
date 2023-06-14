@@ -182,6 +182,12 @@ ul#pagetabs{
   background-color: rgba(0,0,0,.5);
 }
 
+.box {
+  flex: 1 0 300px; /* Adjust the size as needed */
+  background-color: white;
+  margin: 10px;
+}
+
 #titlecontent{
   text-align: center;
   background-color: transparent;
@@ -382,7 +388,7 @@ html, body { padding: 0; margin: 0; }
 }
 
 #gy5{
-  padding-top: 75px;
+  padding-top: 40px;
   float:left;
   width:25%;
   background-color:#8c9caa;
@@ -399,6 +405,8 @@ html, body { padding: 0; margin: 0; }
   background-color: #FF0000; /* Replace with your desired color code */
   border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
 }
+
+
 
 .image01 { background-image: url(../src/0G0A9652.jpg); transition:transform 0.25s ease;}
 .image01:hover{-webkit-transform:scale(10); transform:scale(1.5);}
@@ -485,7 +493,7 @@ html, body { padding: 0; margin: 0; }
 }
 
 .hero{
-  padding-top: 40px;
+  padding-top: 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -514,7 +522,7 @@ html, body { padding: 0; margin: 0; }
 }
 
 .message-icon span{
-  font-size: 40px;
+  font-size: 20px;
   font-weight: bold;
   margin-left: 20px;
   text-align: center;
