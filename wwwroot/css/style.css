@@ -2,7 +2,7 @@
   margin: 0;
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
-  background-color:#FCF0DD;
+  background-color:#424f5c;
   color: black;
   font-size: large;
 }
@@ -97,7 +97,16 @@ info1{
   text-align: center;
   padding-left: 0px;
   padding-bottom: 0%;
+  color: white;
 }
+
+info2{
+  text-align: center;
+  padding-left: 0px;
+  padding-bottom: 0%;
+  color: white;
+}
+
 
 h1#subtitle{
   background-color: transparent;
@@ -164,6 +173,15 @@ ul#pagetabs{
   background-color: rgba(0,0,0,.5);
   
 }
+
+.whitebox2{
+  width: 500px; 
+  height: 100px; 
+  margin-left: auto; 
+  margin-right: auto;
+  background-color: rgba(0,0,0,.5);
+}
+
 #titlecontent{
   text-align: center;
   background-color: transparent;
@@ -328,7 +346,10 @@ html, body { padding: 0; margin: 0; }
 }
 
 #gy1{
-  background-color: white;
+  background-color: transparent;
+  font-size: x-large;
+  font-family: "Lucida Handwriting", cursive;
+  font-style: bolder;
 }
 
 #gy2{
@@ -340,7 +361,7 @@ html, body { padding: 0; margin: 0; }
 }
 
 #gy3{
-  background-color:#424f5c;
+  background-color:#8c9caa;
   text-align: center;
   display: flex;
   align-items: center;
@@ -351,13 +372,32 @@ html, body { padding: 0; margin: 0; }
 }
 
 #gy4{
-  background-color:#424f5c;
+  background-color:#8c9caa;
   text-align: center;
   display: flex;
   align-items: center;
   padding-left: 150px;
   font-family: "Lucida Handwriting", cursive;
   font-size: x-large;
+}
+
+#gy5{
+  padding-top: 75px;
+  float:left;
+  width:25%;
+  background-color:#8c9caa;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding-left: 175px;
+  font-size: large;
+}
+
+.circle {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+  background-color: #FF0000; /* Replace with your desired color code */
+  border-radius: 50%; /* Make it a circle by setting border-radius to 50% */
 }
 
 .image01 { background-image: url(../src/0G0A9652.jpg); transition:transform 0.25s ease;}
@@ -445,12 +485,13 @@ html, body { padding: 0; margin: 0; }
 }
 
 .hero{
+  padding-top: 40px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #424f5c;
+  background-color:#8c9caa;
   /*background-image: url("../src/IMG_1017.jpg");*/
   background-repeat: no-repeat;
   background-size: cover;
@@ -465,6 +506,7 @@ html, body { padding: 0; margin: 0; }
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  background-color: #424f5c;
 }
 
 .message-icon i{
@@ -472,10 +514,11 @@ html, body { padding: 0; margin: 0; }
 }
 
 .message-icon span{
-  font-size: 22px;
+  font-size: 40px;
   font-weight: bold;
-  margin-left: 15px;
+  margin-left: 20px;
   text-align: center;
+  padding-top: 20px;
 }
 
 form input, textarea{
@@ -488,7 +531,7 @@ form input, textarea{
 }
 
 #input-field{
-  padding-bottom: 20px;
+  padding-top: 20px;
   display: flex;
   align-items: center;
 }
@@ -504,6 +547,11 @@ form input, textarea{
   margin-right: 15px;
 
 }
+
+#btn-background{
+  background-color: #424f5c;
+}
+
 
 .send-btn{
   width: 100px;
