@@ -7,11 +7,6 @@
   font-size: large;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-}
-
 
 /* Default styles for the element */
 .element {
