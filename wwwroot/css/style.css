@@ -7,6 +7,10 @@
   font-size: large;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
 
 
 /* Default styles for the element */
@@ -319,13 +323,14 @@ a {
 /* Grid for Gallery  */
 
 html, body { padding: 0; margin: 0; }
+
+
 .image-grid div {
   width: 25%;
   height: 230px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  
+  background-position: center center;  
 }
 
 .image-grid {
@@ -359,11 +364,10 @@ html, body { padding: 0; margin: 0; }
 }
 
 #gy2{
-  background-color:#424f5c;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  padding-top: 50px;
+  padding-top: 40px;
+  background-color: transparent;
+  font-size: large;
+  font-style: bolder;
 }
 
 #gy3{
@@ -651,6 +655,27 @@ th, td{
   padding-left: 30px;
   padding-right: 40px;
   border-bottom: 3px solid black;
+}
+
+.container a {
+  text-align: center;
+}
+
+.interactive-link {
+  background-color: transparent;
+  font-size: large;
+  font-style: bolder;
+  color: black;
+  text-decoration: underline;
+}
+
+.interactive-link:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.interactive-link:active {
+  color: green;
 }
 
 /* #intro, #slideshow2{
