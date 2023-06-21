@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="./wwwroot/css/style.css" />
-
+    <link rel="stylesheet" type="text/css" href="./wwwroot/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="./wwwroot/css/newstyle.css" />
+    <!-- little heart icon in tab -->
+    <link rel="icon" href="./wwwroot/src/favicon-32x32.png" type="image/x-icon">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Dante & Cassandra's Wedding</title>
   </head>
   <body>
-    <div id="header" class="header">
-
-      <h1>D & C</h1>
-
-      <ul id="pagetabs">
-        <li id="tabs1"><a href="index.html">Home</a></li>
-        <li id="tabs1"><a href="when.html">When & Where</a></li>
-        <li id="tabs1"><a href="Gallery.html">Gallery</a></li>
-        <li id="tabs1"><a href="RSVP.html">RSVP</a></li>
-        <li id="tabs1"><a href="FAQ.html">FAQ</a></li>
-      </ul>
-    </div>
+    <header class="header">
+      <nav class="navbar">
+          <a href="index.html" class="nav-logo">D & C</a>
+          <ul class="nav-menu">
+              <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="when.html" class="nav-link">When & Where</a>
+              </li>
+              <li class="nav-item">
+                  <a href="Gallery.html" class="nav-link">Gallery</a>
+              </li>
+              <li class="nav-item">
+                  <a href="RSVP.html" class="nav-link">RSVP</a>
+              </li>
+              <li class="nav-item">
+                <a href="FAQ.html" class="nav-link">FAQ</a>
+            </li>
+          </ul>
+          <!--change for icon instead of this-->
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+      </nav>
+    </header>
     <div>
       <div id="gallery1"><br>
         <h1 id="gy1" >Our Gallery</h1><br>
@@ -72,5 +92,7 @@
       <p id="g1">Dante & Cassandra</p>
       <p id="g1">Contact: dcyantorno@gmail.com</p>
     </footer>
+
+    <script src="wwwroot/js/nav.js"></script>
   </body>
 </html>
